@@ -16,7 +16,7 @@ import string, codecs
 # ===============================================================================
 
 # PATH = 'D:/Tests/____TASKs_FACEProject/___Reprogramming/vonFlorian/vonFlorian/FaceRecognitionBattery_Andrea/01'
-PATH = "C:/pythonProjects/1_SpatiallyManipUprInv_F&H/1_SMF"
+PATH = "C:/pythonProjects/1_SpatiallyManipUprInv_F-H/1_SMF"
 FIXCROSS_SIZE = 40  # size of the fixation cross (the character '+' in Arial)
 INSTR_CHAR_SIZE = 18  # character size for instructions
 OUTPATH = '{0}/results/'.format(PATH)  # output path for storing the results
@@ -83,25 +83,30 @@ exp_win = visual.Window(size=SCREEN_SIZE, monitor="testMonitor", color=(230,230,
 def read_stims(stim_file):
     item_list = []
     trial_order = []  # order of the trials in the experiment (hard-coded in the trial file)
+    file_header = []
     with codecs.open(stim_file, 'rb', encoding="utf-8") as infile:
         for line in infile:
             line = line.strip()
             if '###' in line:  # its the header
+                line = line.split(';')
+                file_header.append(line[0:len(line)-1])
                 continue
             elif len(line) == 0:  # last line if an empty one
                 break
             line = line.split(';')
             trial_order.append(int(line[9]))  # trial order
-            item_list.append(line[0:9])  # write entire rest of the line
-    return item_list, trial_order
+            item_list.append(line[0:11])  # write entire rest of the line
+    return item_list, trial_order, file_header
 
-practice_items, practice_trial_order = read_stims('%s/stimuli/Practice_SpatManipFaces_DE.txt'%(PATH))
-items, trial_order = read_stims('%s/stimuli/Trials_SpatManipFaces_DE.txt'%(PATH))
-
+practice_items, practice_trial_order, practice_header = read_stims('%s/stimuli/Practice_SpatManipFaces_DE.txt'%(PATH))
+items, trial_order, header = read_stims('%s/stimuli/Trials_SpatManipFaces_DE.txt'%(PATH))
+# Edit header line for using in the output
+header[0][0] = "trial"
+header[0][0:0] = ["Subject_ID"]
+header[0].extend(["ans", "correct", "rt"])
 # ===============================================================================
 # Other preparations
 # ===============================================================================
-
 # width for text wrapping
 wrap_width = SCREEN_SIZE[0]-100
 font = LANG_FONT_MAP[LANGUAGE]  # font based on language selection
@@ -173,7 +178,7 @@ def run_trials(items, trial_order, practice=False):
         item_prefix = 'psmsmf'
     # else:
     #     item_prefix = 'smsmf'
-
+    trial_order = [1, 2, 3, 4]
     trial_count = 1
     
     # loop through trials
@@ -216,13 +221,11 @@ def run_trials(items, trial_order, practice=False):
         # get reaction time
         rt = rt_clock.getTime()
         rt *= 1000  # in ms
-        
-        # write out answers
-        string_output = [exp_info['Subject'], str(trial_count)]  # initialize output list: subject ID, trial number (in exp)
-        string_output.extend([str(x) for x in item])  # add trial infos
-        string_output.extend([str(int(practice)),str(ans[-1]), str(match_answer(ans[-1], item[6])), str(rt)])  # add answer infos
-        outfile.write(';'.join(string_output) + '\n')  # write to file
-        
+
+        if not practice:
+            item.extend([str(ans[-1]), str(match_answer(ans[-1], item[6])), str(rt)])
+            outfile.write(exp_info['Subject'] + ";" + ";".join(item) + ";" + "\n")
+
         if practice and match_answer(ans[-1], item[6]):
             correct_screen.draw()
             exp_win.flip()
@@ -244,8 +247,9 @@ def run_trials(items, trial_order, practice=False):
 
         # quarter messages
         if (trial_count != len(trial_order)) and (not practice) and (trial_count % (len(trial_order)/4)) == 0:
-            break_image = visual.SimpleImageStim(exp_win,
+            break_image = visual.ImageStim(exp_win,
                 image='{0}/instructions/{1}/Break_0{2}.png'.format(PATH, LANGUAGE, trial_count/(len(trial_order)/4)))
+            break_image.setSize(1.3333, '*')
             break_image.draw()
             exp_win.flip()
             event.waitKeys(keyList=['space'])
@@ -255,7 +259,6 @@ def run_trials(items, trial_order, practice=False):
 # ===============================================================================
 # experiment
 # ===============================================================================
-
 # ------------------------------------------------------------------------------
 # present instructions
 for ii in range(28):
@@ -265,30 +268,27 @@ for ii in range(28):
 
 # ------------------------------------------------------------------------------
 # run experiment
-with codecs.open(output_file, 'wb', encoding="utf-8") as outfile:
-    
-    # write outfile header
-    # outfile.write('### Experiment: %s\n### Subject ID: %s\n### Date: %s\n\n' %(exp_info['exp_name'], exp_info['Subject'], exp_info['date']))
-    outfile.write('subject_id;trial;trial_id;vert_orientation;face_id;sex;spat_chng;chngd_face_pos;cond;image_name_l;image_name_r;practice;ans;correct;rt\n') #header
-    
-    # practice start if no questions
-    instructions[28].draw()
-    exp_win.flip()
-    event.waitKeys(keyList=['space'])
-    
-    # run practice trials
-    run_trials(practice_items, practice_trial_order, practice=True)
-    
-    # practice end
-    instructions[29].draw()
-    exp_win.flip()
-    event.waitKeys(keyList=['space'])
 
-    # exp start screen
-    instructions[30].draw()
-    exp_win.flip()
-    event.waitKeys(keyList=['space'])
+# practice start if no questions
+instructions[28].draw()
+exp_win.flip()
+event.waitKeys(keyList=['space'])
 
+# run practice trials
+run_trials(practice_items, practice_trial_order, practice=True)
+
+# practice end
+instructions[29].draw()
+exp_win.flip()
+event.waitKeys(keyList=['space'])
+
+# exp start screen
+instructions[30].draw()
+exp_win.flip()
+event.waitKeys(keyList=['space'])
+
+with open(output_file, 'w') as outfile:
+    outfile.write(";".join(header[0]) + "\n")
     # exp start
     run_trials(items, trial_order)
 

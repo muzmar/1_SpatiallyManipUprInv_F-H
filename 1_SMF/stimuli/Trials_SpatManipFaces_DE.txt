@@ -1,121 +1,121 @@
-### orig trial#;type;Face #;sex; spatial change ;position of changed face; r-k(ascii) ;file name left ;  file name right ;seq;FaceAge
-1;upright ;1;female;eyes up;right;different;014_4_f.jpg;014_4_f_eyes_up.jpg;80;4years01
-2;upright ;2;female;eyes in;left;different;07_4_f.jpg;07_4_f_eyes_in.jpg;58;4years02
-3;upright ;3;female;moth up;right;different;014_5_f.jpg;014_5_f_moth_up.jpg;43;5years01
-4;upright ;4;female;none;;same;011_5_f.jpg;011_5_f_same.jpg;15;5years02
-5;upright ;5;female;none;;same;013_6_f.jpg;013_6_f_same.jpg;32;6years01
-6;upright ;6;female;none;;same;014_6_f.jpg;014_6_f_same.jpg;100;6years02
-7;upright ;1;male;eyes up;right;different;012_4_m.jpg;012_4_m_eyes_up.jpg;93;4years01
-8;upright ;2;male;eyes in;left;different;010_4_m.jpg;010_4_m_eyes_in.jpg;20;4years02
-9;upright ;3;male;moth up;right;different;09_5_m.jpg;09_5_m_moth_up.jpg;51;5years01
-10;upright ;4;male;none;;same;06_5_m.jpg;06_5_m_same.jpg;40;5years02
-11;upright ;5;male;none;;same;01_6_m.jpg;01_6_m_same.jpg;109;6years01
-12;upright ;6;male;none;;same;04_6_m.jpg;04_6_m_same.jpg;64;6years02
-13;inverted;1;female;eyes up;right;different;014_4_f_in.jpg;014_4_f_eyes_up_in.jpg;37;4years01
-14;inverted;2;female;eyes in;right;different;07_4_f_in.jpg;07_4_f_eyes_in_in.jpg;114;4years02
-15;inverted;3;female;moth up;left;different;014_5_f_in.jpg;014_5_f_moth_up_in.jpg;26;5years01
-16;inverted;4;female;none;;same;011_5_f_in.jpg;011_5_f_same_in.jpg;119;5years02
-17;inverted;5;female;none;;same;013_6_f_in.jpg;013_6_f_same_in.jpg;105;6years01
-18;inverted;6;female;none;;same;014_6_f_in.jpg;014_6_f_same_in.jpg;107;6years02
-19;inverted;1;male;eyes up;right;different;012_4_m_in.jpg;012_4_m_eyes_up_in.jpg;38;4years01
-20;inverted;2;male;eyes in;right;different;010_4_m_in.jpg;010_4_m_eyes_in_in.jpg;3;4years02
-21;inverted;3;male;moth up;left;different;09_5_m_in.jpg;09_5_m_moth_up_in.jpg;76;5years01
-22;inverted;4;male;none;;same;06_5_m_in.jpg;06_5_m_same_in.jpg;22;5years02
-23;inverted;5;male;none;;same;01_6_m_in.jpg;01_6_m_same_in.jpg;112;6years01
-24;inverted;6;male;none;;same;04_6_m_in.jpg;04_6_m_same_in.jpg;14;6years02
-25;upright ;7;female;eyes up;left;different;014_7_f.jpg;014_7_f_eyes_up.jpg;4;7years01
-26;upright ;8;female;eyes in;right;different;02_7_f.jpg;02_7_f_eyes_in.jpg;84;7years02
-27;upright ;9;female;moth up;left;different;09_8_f.jpg;09_8_f_moth_up.jpg;66;8years01
-28;upright ;10;female;none;;same;014_8_f.jpg;014_8_f_same.jpg;10;8years02
-29;upright ;11;female;none;;same;011_9_f.jpg;011_9_f_same.jpg;62;9years01
-30;upright ;12;female;none;;same;013_9_f.jpg;013_9_f_same.jpg;13;9years02
-31;upright ;7;male;eyes up;left;different;01_7_m.jpg;01_7_m_eyes_up.jpg;60;7years01
-32;upright ;8;male;eyes in;right;different;025_7_m.jpg;025_7_m_eyes_in.jpg;101;7years02
-33;upright ;9;male;moth up;left;different;014_8_m.jpg;014_8_m_moth_up.jpg;89;8years01
-34;upright ;10;male;none;;same;015_8_m.jpg;015_8_m_same.jpg;56;8years02
-35;upright ;11;male;none;;same;03_9_m.jpg;03_9_m_same.jpg;46;9years01
-36;upright ;12;male;none;;same;05_9_m.jpg;05_9_m_same.jpg;28;9years02
-37;inverted;7;female;eyes up;left;different;014_7_f_in.jpg;014_7_f_eyes_up_in.jpg;111;7years01
-38;inverted;8;female;eyes in;left;different;02_7_f_in.jpg;02_7_f_eyes_in_in.jpg;7;7years02
-39;inverted;9;female;moth up;right;different;09_8_f_in.jpg;09_8_f_moth_up_in.jpg;97;8years01
-40;inverted;10;female;none;;same;014_8_f_in.jpg;014_8_f_same_in.jpg;65;8years02
-41;inverted;11;female;none;;same;011_9_f_in.jpg;011_9_f_same_in.jpg;120;9years01
-42;inverted;12;female;none;;same;013_9_f_in.jpg;013_9_f_same_in.jpg;49;9years02
-43;inverted;7;male;eyes up;left;different;01_7_m_in.jpg;01_7_m_eyes_up_in.jpg;72;7years01
-44;inverted;8;male;eyes in;left;different;025_7_m_in.jpg;025_7_m_eyes_in_in.jpg;11;7years02
-45;inverted;9;male;moth up;right;different;014_8_m_in.jpg;014_8_m_moth_up_in.jpg;61;8years01
-46;inverted;10;male;none;;same;015_8_m_in.jpg;015_8_m_same_in.jpg;67;8years02
-47;inverted;11;male;none;;same;03_9_m_in.jpg;03_9_m_same_in.jpg;23;9years01
-48;inverted;12;male;none;;same;05_9_m_in.jpg;05_9_m_same_in.jpg;116;9years02
-49;upright ;13;female;eyes up;right;different;05_10_f.jpg;05_10_f_eyes_up.jpg;79;10years01
-50;upright ;14;female;eyes in;right;different;014_10_f.jpg;014_10_f_eyes_in.jpg;31;10years02
-51;upright ;15;female;moth up;left;different;013_11_f.jpg;013_11_f_moth_up.jpg;2;11years01
-52;upright ;16;female;none;;same;014_11_f.jpg;014_11_f_same.jpg;52;11years02
-53;upright ;17;female;none;;same;010_12_f.jpg;010_12_f_same.jpg;69;12years01
-54;upright ;18;female;none;;same;011_12_f.jpg;011_12_f_same.jpg;30;12years02
-55;upright ;13;male;eyes up;right;different;08_10_m.jpg;08_10_m_eyes_up.jpg;29;10years01
-56;upright ;14;male;eyes in;right;different;06_10_m.jpg;06_10_m_eyes_in.jpg;35;10years02
-57;upright ;15;male;moth up;left;different;013_11_m.jpg;013_11_m_moth_up.jpg;98;11years01
-58;upright ;16;male;none;;same;08_11_m.jpg;08_11_m_same.jpg;95;11years02
-59;upright ;17;male;none;;same;02_12_m.jpg;02_12_m_same.jpg;70;12years01
-60;upright ;18;male;none;;same;014_12_m.jpg;014_12_m_same.jpg;85;12years02
-61;inverted;13;female;eyes up;right;different;05_10_f_in.jpg;05_10_f_eyes_up_in.jpg;74;10years01
-62;inverted;14;female;eyes in;left;different;014_10_f_in.jpg;014_10_f_eyes_in_in.jpg;99;10years02
-63;inverted;15;female;moth up;right;different;013_11_f_in.jpg;013_11_f_moth_up_in.jpg;36;11years01
-64;inverted;16;female;none;;same;014_11_f_in.jpg;014_11_f_same_in.jpg;106;11years02
-65;inverted;17;female;none;;same;010_12_f_in.jpg;010_12_f_same_in.jpg;5;12years01
-66;inverted;18;female;none;;same;011_12_f_in.jpg;011_12_f_same_in.jpg;25;12years02
-67;inverted;13;male;eyes up;right;different;08_10_m_in.jpg;08_10_m_eyes_up_in.jpg;78;10years01
-68;inverted;14;male;eyes in;left;different;06_10_m_in.jpg;06_10_m_eyes_in_in.jpg;54;10years02
-69;inverted;15;male;moth up;right;different;013_11_m_in.jpg;013_11_m_moth_up_in.jpg;63;11years01
-70;inverted;16;male;none;;same;08_11_m_in.jpg;08_11_m_same_in.jpg;33;11years02
-71;inverted;17;male;none;;same;02_12_m_in.jpg;02_12_m_same_in.jpg;48;12years01
-72;inverted;18;male;none;;same;014_12_m_in.jpg;014_12_m_same_in.jpg;53;12years02
-73;upright ;19;female;eyes up;left;different;04_13_f.jpg;04_13_f_eyes_up.jpg;90;13years01
-74;upright ;20;female;eyes in;left;different;05_13_f.jpg;05_13_f_eyes_in.jpg;50;13years02
-75;upright ;21;female;moth up;right;different;09_14_f.jpg;09_14_f_moth_up.jpg;81;14years01
-76;upright ;22;female;none;;same;014_14_f.jpg;014_14_f_same.jpg;87;14years02
-77;upright ;23;female;none;;same;03_15_f.jpg;03_15_f_same.jpg;21;15years01
-78;upright ;24;female;none;;same;07_15_f.jpg;07_15_f_same.jpg;57;15years02
-79;upright ;19;male;eyes up;left;different;012_13_m.jpg;012_13_m_eyes_up.jpg;41;13years01
-80;upright ;20;male;eyes in;left;different;07_13_m.jpg;07_13_m_eyes_in.jpg;96;13years02
-81;upright ;21;male;moth up;right;different;014_14_m.jpg;014_14_m_moth_up.jpg;83;14years01
-82;upright ;22;male;none;;same;04_14_m.jpg;04_14_m_same.jpg;75;14years02
-83;upright ;23;male;none;;same;02_15_m.jpg;02_15_m_same.jpg;47;15years01
-84;upright ;24;male;none;;same;014_15_m.jpg;014_15_m_same.jpg;55;15years02
-85;inverted;19;female;eyes up;left;different;04_13_f_in.jpg;04_13_f_eyes_up_in.jpg;8;13years01
-86;inverted;20;female;eyes in;right;different;05_13_f_in.jpg;05_13_f_eyes_in_in.jpg;39;13years02
-87;inverted;21;female;moth up;left;different;09_14_f_in.jpg;09_14_f_moth_up_in.jpg;73;14years01
-88;inverted;22;female;none;;same;014_14_f_in.jpg;014_14_f_same_in.jpg;1;14years02
-89;inverted;23;female;none;;same;03_15_f_in.jpg;03_15_f_same_in.jpg;24;15years01
-90;inverted;24;female;none;;same;07_15_f_in.jpg;07_15_f_same_in.jpg;68;15years02
-91;inverted;19;male;eyes up;left;different;012_13_m_in.jpg;012_13_m_eyes_up_in.jpg;102;13years01
-92;inverted;20;male;eyes in;right;different;07_13_m_in.jpg;07_13_m_eyes_in_in.jpg;16;13years02
-93;inverted;21;male;moth up;left;different;014_14_m_in.jpg;014_14_m_moth_up_in.jpg;19;14years01
-94;inverted;22;male;none;;same;04_14_m_in.jpg;04_14_m_same_in.jpg;44;14years02
-95;inverted;23;male;none;;same;02_15_m_in.jpg;02_15_m_same_in.jpg;110;15years01
-96;inverted;24;male;none;;same;014_15_m_in.jpg;014_15_m_same_in.jpg;6;15years02
-97;upright ;25;female;eyes up;right;different;010_16_f.jpg;010_16_f_eyes_up.jpg;59;16years01
-98;upright ;26;female;eyes in;right;different;014_16_f.jpg;014_16_f_eyes_in.jpg;82;16years02
-99;upright ;27;female;moth up;left;different;014_17_f.jpg;014_17_f_moth_up.jpg;88;17years01
-100;upright ;28;female;none;;same;013_17_f.jpg;013_17_f_same.jpg;91;17years02
-101;upright ;29;female;none;;same;010_18_f.jpg;010_18_f_same.jpg;104;18years01
-102;upright ;30;female;none;;same;013_18_f.jpg;013_18_f_same.jpg;18;18years02
-103;upright ;25;male;eyes up;right;different;06_16_m.jpg;06_16_m_eyes_up.jpg;12;16years01
-104;upright ;26;male;eyes in;right;different;014_16_m.jpg;014_16_m_eyes_in.jpg;103;16years02
-105;upright ;27;male;moth up;left;different;014_17_m.jpg;014_17_m_moth_up.jpg;117;17years01
-106;upright ;28;male;none;;same;05_17_m.jpg;05_17_m_same.jpg;34;17years02
-107;upright ;29;male;none;;same;013_18_m.jpg;013_18_m_same.jpg;77;18years01
-108;upright ;30;male;none;;same;014_18_m.jpg;014_18_m_same.jpg;27;18years02
-109;inverted;25;female;eyes up;left;different;010_16_f_in.jpg;010_16_f_eyes_up_in.jpg;118;16years01
-110;inverted;26;female;eyes in;left;different;014_16_f_in.jpg;014_16_f_eyes_in_in.jpg;71;16years02
-111;inverted;27;female;moth up;right;different;014_17_f_in.jpg;014_17_f_moth_up_in.jpg;45;17years01
-112;inverted;28;female;none;;same;013_17_f_in.jpg;013_17_f_same_in.jpg;92;17years02
-113;inverted;29;female;none;;same;010_18_f_in.jpg;010_18_f_same_in.jpg;9;18years01
-114;inverted;30;female;none;;same;013_18_f_in.jpg;013_18_f_same_in.jpg;94;18years02
-115;inverted;25;male;eyes up;left;different;06_16_m_in.jpg;06_16_m_eyes_up_in.jpg;86;16years01
-116;inverted;26;male;eyes in;left;different;014_16_m_in.jpg;014_16_m_eyes_in_in.jpg;42;16years02
-117;inverted;27;male;moth up;right;different;014_17_m_in.jpg;014_17_m_moth_up_in.jpg;113;17years01
-118;inverted;28;male;none;;same;05_17_m_in.jpg;05_17_m_same_in.jpg;108;17years02
-119;inverted;29;male;none;;same;013_18_m_in.jpg;013_18_m_same_in.jpg;115;18years01
-120;inverted;30;male;none;;same;014_18_m_in.jpg;014_18_m_same_in.jpg;17;18years02
+### orig trial#;type;Face #;sex; spatial change ;position of changed face; r-k(ascii) ;file name left ;  file name right ;seq;FaceAge;
+1;upright ;1;female;eyes up;right;different;014_4_f.jpg;014_4_f_eyes_up.jpg;80;4years01;
+2;upright ;2;female;eyes in;left;different;07_4_f.jpg;07_4_f_eyes_in.jpg;58;4years02;
+3;upright ;3;female;moth up;right;different;014_5_f.jpg;014_5_f_moth_up.jpg;43;5years01;
+4;upright ;4;female;none;;same;011_5_f.jpg;011_5_f_same.jpg;15;5years02;
+5;upright ;5;female;none;;same;013_6_f.jpg;013_6_f_same.jpg;32;6years01;
+6;upright ;6;female;none;;same;014_6_f.jpg;014_6_f_same.jpg;100;6years02;
+7;upright ;1;male;eyes up;right;different;012_4_m.jpg;012_4_m_eyes_up.jpg;93;4years01;
+8;upright ;2;male;eyes in;left;different;010_4_m.jpg;010_4_m_eyes_in.jpg;20;4years02;
+9;upright ;3;male;moth up;right;different;09_5_m.jpg;09_5_m_moth_up.jpg;51;5years01;
+10;upright ;4;male;none;;same;06_5_m.jpg;06_5_m_same.jpg;40;5years02;
+11;upright ;5;male;none;;same;01_6_m.jpg;01_6_m_same.jpg;109;6years01;
+12;upright ;6;male;none;;same;04_6_m.jpg;04_6_m_same.jpg;64;6years02;
+13;inverted;1;female;eyes up;right;different;014_4_f_in.jpg;014_4_f_eyes_up_in.jpg;37;4years01;
+14;inverted;2;female;eyes in;right;different;07_4_f_in.jpg;07_4_f_eyes_in_in.jpg;114;4years02;
+15;inverted;3;female;moth up;left;different;014_5_f_in.jpg;014_5_f_moth_up_in.jpg;26;5years01;
+16;inverted;4;female;none;;same;011_5_f_in.jpg;011_5_f_same_in.jpg;119;5years02;
+17;inverted;5;female;none;;same;013_6_f_in.jpg;013_6_f_same_in.jpg;105;6years01;
+18;inverted;6;female;none;;same;014_6_f_in.jpg;014_6_f_same_in.jpg;107;6years02;
+19;inverted;1;male;eyes up;right;different;012_4_m_in.jpg;012_4_m_eyes_up_in.jpg;38;4years01;
+20;inverted;2;male;eyes in;right;different;010_4_m_in.jpg;010_4_m_eyes_in_in.jpg;3;4years02;
+21;inverted;3;male;moth up;left;different;09_5_m_in.jpg;09_5_m_moth_up_in.jpg;76;5years01;
+22;inverted;4;male;none;;same;06_5_m_in.jpg;06_5_m_same_in.jpg;22;5years02;
+23;inverted;5;male;none;;same;01_6_m_in.jpg;01_6_m_same_in.jpg;112;6years01;
+24;inverted;6;male;none;;same;04_6_m_in.jpg;04_6_m_same_in.jpg;14;6years02;
+25;upright ;7;female;eyes up;left;different;014_7_f.jpg;014_7_f_eyes_up.jpg;4;7years01;
+26;upright ;8;female;eyes in;right;different;02_7_f.jpg;02_7_f_eyes_in.jpg;84;7years02;
+27;upright ;9;female;moth up;left;different;09_8_f.jpg;09_8_f_moth_up.jpg;66;8years01;
+28;upright ;10;female;none;;same;014_8_f.jpg;014_8_f_same.jpg;10;8years02;
+29;upright ;11;female;none;;same;011_9_f.jpg;011_9_f_same.jpg;62;9years01;
+30;upright ;12;female;none;;same;013_9_f.jpg;013_9_f_same.jpg;13;9years02;
+31;upright ;7;male;eyes up;left;different;01_7_m.jpg;01_7_m_eyes_up.jpg;60;7years01;
+32;upright ;8;male;eyes in;right;different;025_7_m.jpg;025_7_m_eyes_in.jpg;101;7years02;
+33;upright ;9;male;moth up;left;different;014_8_m.jpg;014_8_m_moth_up.jpg;89;8years01;
+34;upright ;10;male;none;;same;015_8_m.jpg;015_8_m_same.jpg;56;8years02;
+35;upright ;11;male;none;;same;03_9_m.jpg;03_9_m_same.jpg;46;9years01;
+36;upright ;12;male;none;;same;05_9_m.jpg;05_9_m_same.jpg;28;9years02;
+37;inverted;7;female;eyes up;left;different;014_7_f_in.jpg;014_7_f_eyes_up_in.jpg;111;7years01;
+38;inverted;8;female;eyes in;left;different;02_7_f_in.jpg;02_7_f_eyes_in_in.jpg;7;7years02;
+39;inverted;9;female;moth up;right;different;09_8_f_in.jpg;09_8_f_moth_up_in.jpg;97;8years01;
+40;inverted;10;female;none;;same;014_8_f_in.jpg;014_8_f_same_in.jpg;65;8years02;
+41;inverted;11;female;none;;same;011_9_f_in.jpg;011_9_f_same_in.jpg;120;9years01;
+42;inverted;12;female;none;;same;013_9_f_in.jpg;013_9_f_same_in.jpg;49;9years02;
+43;inverted;7;male;eyes up;left;different;01_7_m_in.jpg;01_7_m_eyes_up_in.jpg;72;7years01;
+44;inverted;8;male;eyes in;left;different;025_7_m_in.jpg;025_7_m_eyes_in_in.jpg;11;7years02;
+45;inverted;9;male;moth up;right;different;014_8_m_in.jpg;014_8_m_moth_up_in.jpg;61;8years01;
+46;inverted;10;male;none;;same;015_8_m_in.jpg;015_8_m_same_in.jpg;67;8years02;
+47;inverted;11;male;none;;same;03_9_m_in.jpg;03_9_m_same_in.jpg;23;9years01;
+48;inverted;12;male;none;;same;05_9_m_in.jpg;05_9_m_same_in.jpg;116;9years02;
+49;upright ;13;female;eyes up;right;different;05_10_f.jpg;05_10_f_eyes_up.jpg;79;10years01;
+50;upright ;14;female;eyes in;right;different;014_10_f.jpg;014_10_f_eyes_in.jpg;31;10years02;
+51;upright ;15;female;moth up;left;different;013_11_f.jpg;013_11_f_moth_up.jpg;2;11years01;
+52;upright ;16;female;none;;same;014_11_f.jpg;014_11_f_same.jpg;52;11years02;
+53;upright ;17;female;none;;same;010_12_f.jpg;010_12_f_same.jpg;69;12years01;
+54;upright ;18;female;none;;same;011_12_f.jpg;011_12_f_same.jpg;30;12years02;
+55;upright ;13;male;eyes up;right;different;08_10_m.jpg;08_10_m_eyes_up.jpg;29;10years01;
+56;upright ;14;male;eyes in;right;different;06_10_m.jpg;06_10_m_eyes_in.jpg;35;10years02;
+57;upright ;15;male;moth up;left;different;013_11_m.jpg;013_11_m_moth_up.jpg;98;11years01;
+58;upright ;16;male;none;;same;08_11_m.jpg;08_11_m_same.jpg;95;11years02;
+59;upright ;17;male;none;;same;02_12_m.jpg;02_12_m_same.jpg;70;12years01;
+60;upright ;18;male;none;;same;014_12_m.jpg;014_12_m_same.jpg;85;12years02;
+61;inverted;13;female;eyes up;right;different;05_10_f_in.jpg;05_10_f_eyes_up_in.jpg;74;10years01;
+62;inverted;14;female;eyes in;left;different;014_10_f_in.jpg;014_10_f_eyes_in_in.jpg;99;10years02;
+63;inverted;15;female;moth up;right;different;013_11_f_in.jpg;013_11_f_moth_up_in.jpg;36;11years01;
+64;inverted;16;female;none;;same;014_11_f_in.jpg;014_11_f_same_in.jpg;106;11years02;
+65;inverted;17;female;none;;same;010_12_f_in.jpg;010_12_f_same_in.jpg;5;12years01;
+66;inverted;18;female;none;;same;011_12_f_in.jpg;011_12_f_same_in.jpg;25;12years02;
+67;inverted;13;male;eyes up;right;different;08_10_m_in.jpg;08_10_m_eyes_up_in.jpg;78;10years01;
+68;inverted;14;male;eyes in;left;different;06_10_m_in.jpg;06_10_m_eyes_in_in.jpg;54;10years02;
+69;inverted;15;male;moth up;right;different;013_11_m_in.jpg;013_11_m_moth_up_in.jpg;63;11years01;
+70;inverted;16;male;none;;same;08_11_m_in.jpg;08_11_m_same_in.jpg;33;11years02;
+71;inverted;17;male;none;;same;02_12_m_in.jpg;02_12_m_same_in.jpg;48;12years01;
+72;inverted;18;male;none;;same;014_12_m_in.jpg;014_12_m_same_in.jpg;53;12years02;
+73;upright ;19;female;eyes up;left;different;04_13_f.jpg;04_13_f_eyes_up.jpg;90;13years01;
+74;upright ;20;female;eyes in;left;different;05_13_f.jpg;05_13_f_eyes_in.jpg;50;13years02;
+75;upright ;21;female;moth up;right;different;09_14_f.jpg;09_14_f_moth_up.jpg;81;14years01;
+76;upright ;22;female;none;;same;014_14_f.jpg;014_14_f_same.jpg;87;14years02;
+77;upright ;23;female;none;;same;03_15_f.jpg;03_15_f_same.jpg;21;15years01;
+78;upright ;24;female;none;;same;07_15_f.jpg;07_15_f_same.jpg;57;15years02;
+79;upright ;19;male;eyes up;left;different;012_13_m.jpg;012_13_m_eyes_up.jpg;41;13years01;
+80;upright ;20;male;eyes in;left;different;07_13_m.jpg;07_13_m_eyes_in.jpg;96;13years02;
+81;upright ;21;male;moth up;right;different;014_14_m.jpg;014_14_m_moth_up.jpg;83;14years01;
+82;upright ;22;male;none;;same;04_14_m.jpg;04_14_m_same.jpg;75;14years02;
+83;upright ;23;male;none;;same;02_15_m.jpg;02_15_m_same.jpg;47;15years01;
+84;upright ;24;male;none;;same;014_15_m.jpg;014_15_m_same.jpg;55;15years02;
+85;inverted;19;female;eyes up;left;different;04_13_f_in.jpg;04_13_f_eyes_up_in.jpg;8;13years01;
+86;inverted;20;female;eyes in;right;different;05_13_f_in.jpg;05_13_f_eyes_in_in.jpg;39;13years02;
+87;inverted;21;female;moth up;left;different;09_14_f_in.jpg;09_14_f_moth_up_in.jpg;73;14years01;
+88;inverted;22;female;none;;same;014_14_f_in.jpg;014_14_f_same_in.jpg;1;14years02;
+89;inverted;23;female;none;;same;03_15_f_in.jpg;03_15_f_same_in.jpg;24;15years01;
+90;inverted;24;female;none;;same;07_15_f_in.jpg;07_15_f_same_in.jpg;68;15years02;
+91;inverted;19;male;eyes up;left;different;012_13_m_in.jpg;012_13_m_eyes_up_in.jpg;102;13years01;
+92;inverted;20;male;eyes in;right;different;07_13_m_in.jpg;07_13_m_eyes_in_in.jpg;16;13years02;
+93;inverted;21;male;moth up;left;different;014_14_m_in.jpg;014_14_m_moth_up_in.jpg;19;14years01;
+94;inverted;22;male;none;;same;04_14_m_in.jpg;04_14_m_same_in.jpg;44;14years02;
+95;inverted;23;male;none;;same;02_15_m_in.jpg;02_15_m_same_in.jpg;110;15years01;
+96;inverted;24;male;none;;same;014_15_m_in.jpg;014_15_m_same_in.jpg;6;15years02;
+97;upright ;25;female;eyes up;right;different;010_16_f.jpg;010_16_f_eyes_up.jpg;59;16years01;
+98;upright ;26;female;eyes in;right;different;014_16_f.jpg;014_16_f_eyes_in.jpg;82;16years02;
+99;upright ;27;female;moth up;left;different;014_17_f.jpg;014_17_f_moth_up.jpg;88;17years01;
+100;upright ;28;female;none;;same;013_17_f.jpg;013_17_f_same.jpg;91;17years02;
+101;upright ;29;female;none;;same;010_18_f.jpg;010_18_f_same.jpg;104;18years01;
+102;upright ;30;female;none;;same;013_18_f.jpg;013_18_f_same.jpg;18;18years02;
+103;upright ;25;male;eyes up;right;different;06_16_m.jpg;06_16_m_eyes_up.jpg;12;16years01;
+104;upright ;26;male;eyes in;right;different;014_16_m.jpg;014_16_m_eyes_in.jpg;103;16years02;
+105;upright ;27;male;moth up;left;different;014_17_m.jpg;014_17_m_moth_up.jpg;117;17years01;
+106;upright ;28;male;none;;same;05_17_m.jpg;05_17_m_same.jpg;34;17years02;
+107;upright ;29;male;none;;same;013_18_m.jpg;013_18_m_same.jpg;77;18years01;
+108;upright ;30;male;none;;same;014_18_m.jpg;014_18_m_same.jpg;27;18years02;
+109;inverted;25;female;eyes up;left;different;010_16_f_in.jpg;010_16_f_eyes_up_in.jpg;118;16years01;
+110;inverted;26;female;eyes in;left;different;014_16_f_in.jpg;014_16_f_eyes_in_in.jpg;71;16years02;
+111;inverted;27;female;moth up;right;different;014_17_f_in.jpg;014_17_f_moth_up_in.jpg;45;17years01;
+112;inverted;28;female;none;;same;013_17_f_in.jpg;013_17_f_same_in.jpg;92;17years02;
+113;inverted;29;female;none;;same;010_18_f_in.jpg;010_18_f_same_in.jpg;9;18years01;
+114;inverted;30;female;none;;same;013_18_f_in.jpg;013_18_f_same_in.jpg;94;18years02;
+115;inverted;25;male;eyes up;left;different;06_16_m_in.jpg;06_16_m_eyes_up_in.jpg;86;16years01;
+116;inverted;26;male;eyes in;left;different;014_16_m_in.jpg;014_16_m_eyes_in_in.jpg;42;16years02;
+117;inverted;27;male;moth up;right;different;014_17_m_in.jpg;014_17_m_moth_up_in.jpg;113;17years01;
+118;inverted;28;male;none;;same;05_17_m_in.jpg;05_17_m_same_in.jpg;108;17years02;
+119;inverted;29;male;none;;same;013_18_m_in.jpg;013_18_m_same_in.jpg;115;18years01;
+120;inverted;30;male;none;;same;014_18_m_in.jpg;014_18_m_same_in.jpg;17;18years02;
