@@ -1,0 +1,61 @@
+###orig trial#;type;Face #;sex;spatial change;position of changed face;r-k(ascii);file name left smsmf~;file name right smsmf~;seq;originaler Bildname
+1;upright;1;female;eyes up (11);right;different;01o.jpg;01c.jpg;56;0285_ge_w
+2;upright;2;female;eyes up (15);left;different;02c.jpg;02o.jpg;36;0008_ge_w
+3;upright;3;female;eyes down (13);right;different;03o.jpg;03c.jpg;40;0134_ge_w
+4;upright;4;female;eyes out (12);left;different;04c.jpg;04o.jpg;60;1254_ge_w
+5;upright;5;female;eyes in (14);right;different;05o.jpg;05c.jpg;52;0545_ge_w
+6;upright;6;female;mouth up (8);left;different;06c.jpg;06o.jpg;43;1264_ge_w
+7;upright;7;female;mouth up (11) ;right;different;07o.jpg;07c.jpg;23;0323_ge_w
+8;upright;8;female;mouth down (8);right;different;08o.jpg;08c.jpg;49;0603_ge_w
+9;upright;9;female;none;;same;09o.jpg;09o1.jpg;37;0414_ge_w
+10;upright;10;female;none;;same;10o.jpg;10o1.jpg;26;1289_ge_w
+11;upright;11;female;none;;same;11o.jpg;11o1.jpg;33;1323_ge_w
+12;upright;12;female;none;;same;12o.jpg;12o1.jpg;59;1065_ge_w
+13;upright;13;female;none;;same;13o.jpg;13o1.jpg;2;1381_ge_w
+14;upright;14;female;none;;same;14o.jpg;14o1.jpg;16;0202_ge_w
+15;upright;15;female;none;;same;15o.jpg;15o1.jpg;31;0175_ge_w
+16;upright;1;male;eyes up (13);left;different;16c.jpg;16o.jpg;38;0978_ge_m
+17;upright;2;male;eyes down (15);left;different;17c.jpg;17o.jpg;44;0214_ge_m
+18;upright;3;male;eyes down (11);right;different;18o.jpg;18c.jpg;50;0684_ge_m
+19;upright;4;male;eyes out (14);right;different;19o.jpg;19c.jpg;54;1372_ge_m
+20;upright;5;male;eyes in (12);left;different;20c.jpg;20o.jpg;24;0179_ge_m
+21;upright;6;male;mouth up (13);left;different;21c.jpg;21o.jpg;51;0028_ge_m
+22;upright;7;male;mouth down (11) ;right;different;22o.jpg;22c.jpg;9;0168_ge_m
+23;upright;8;male;none;;same;23o.jpg;23o1.jpg;30;1000_ge_m
+24;upright;9;male;none;;same;24o.jpg;24o1.jpg;39;1335_ge_m
+25;upright;10;male;none;;same;25o.jpg;25o1.jpg;11;1569_ge_m
+26;upright;11;male;none;;same;26o.jpg;26o1.jpg;46;0281_ge_m
+27;upright;12;male;none;;same;27o.jpg;27o1.jpg;7;0299_ge_m
+28;upright;13;male;none;;same;28o.jpg;28o1.jpg;1;0713_ge_m
+29;upright;14;male;none;;same;29o.jpg;29o1.jpg;57;0810_ge_m
+30;upright;15;male;none;;same;30o.jpg;30o1.jpg;15;1035_ge_m
+31;inverted;1;female;eyes up (9);right;different;31o.jpg;31c.jpg;25;
+32;inverted;2;female;eyes up (13);right;different;32o.jpg;32c.jpg;29;
+33;inverted;3;female;eyes down (11);left;different;33c.jpg;33o.jpg;10;
+34;inverted;4;female;eyes out (10);left;different;34c.jpg;34o.jpg;41;
+35;inverted;5;female;eyes in (12);left;different;35c.jpg;35o.jpg;19;
+36;inverted;6;female;mouth up (7);right;different;36o.jpg;36c.jpg;21;
+37;inverted;7;female;mouth up (9) ;left;different;37c.jpg;37o.jpg;6;
+38;inverted;8;female;mouth down (7);right;different;38o.jpg;38c.jpg;35;
+39;inverted;9;female;none;;same;39o.jpg;39o1.jpg;53;
+40;inverted;10;female;none;;same;40o.jpg;40o1.jpg;34;
+41;inverted;11;female;none;;same;41o.jpg;41o1.jpg;5;
+42;inverted;12;female;none;;same;42o.jpg;42o1.jpg;28;
+43;inverted;13;female;none;;same;43o.jpg;43o1.jpg;27;
+44;inverted;14;female;none;;same;44o.jpg;44o1.jpg;58;
+45;inverted;15;female;none;;same;45o.jpg;45o1.jpg;22;
+46;inverted;1;male;eyes up (11);left;different;46c.jpg;46o.jpg;12;
+47;inverted;2;male;eyes down (13);left;different;47c.jpg;47o.jpg;48;
+48;inverted;3;male;eyes down (9);right;different;48o.jpg;48c.jpg;20;
+49;inverted;4;male;eyes out (12);left;different;49c.jpg;49o.jpg;14;
+50;inverted;5;male;eyes in (10);left;different;50c.jpg;50o.jpg;47;
+51;inverted;6;male;mouth up (11);right;different;51o.jpg;51c.jpg;4;
+52;inverted;7;male;mouth down (9) ;right;different;52o.jpg;52c.jpg;55;
+53;inverted;8;male;none;;same;53o.jpg;53o1.jpg;13;
+54;inverted;9;male;none;;same;54o.jpg;54o1.jpg;32;
+55;inverted;10;male;none;;same;55o.jpg;55o1.jpg;18;
+56;inverted;11;male;none;;same;56o.jpg;56o1.jpg;17;
+57;inverted;12;male;none;;same;57o.jpg;57o1.jpg;3;
+58;inverted;13;male;none;;same;58o.jpg;58o1.jpg;42;
+59;inverted;14;male;none;;same;59o.jpg;59o1.jpg;45;
+60;inverted;15;male;none;;same;60o.jpg;60o1.jpg;8;

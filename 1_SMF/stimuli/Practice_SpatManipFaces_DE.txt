@@ -1,0 +1,7 @@
+###orig trial#;type;Face #;sex;spatial change;position of changed face;r-k(ascii);file name left smsmf~;file name right smsmf~;seq
+2;upright;practice;female;practice;;same;02o.jpg;02o1.jpg;2
+3;upright;practice;female;practice;right;different;03o.jpg;03c.jpg;4
+6;upright;practice;male;practice;;same;06o.jpg;06o1.jpg;3
+7;inverted;practice;male;practice;;same;07o.jpg;07o1.jpg;6
+10;inverted;practice;male;practice;left;different;10c.jpg;10o.jpg;5
+11;inverted;practice;female;practice;right;different;11o.jpg;11c.jpg;1

@@ -1,0 +1,5 @@
+subject_id;trial;trial_id;vert_orientation;face_id;sex;spat_chng;chngd_face_pos;cond;image_name_l;image_name_r;practice;ans;correct;rt
+23556;1;3;upright;practice;female;practice;right;different;03o.jpg;03c.jpg;1;rctrl;0;5.00593307699
+23556;2;7;inverted;practice;male;practice;;same;07o.jpg;07o1.jpg;1;rctrl;1;3.46929122365
+23556;3;6;upright;practice;male;practice;;same;06o.jpg;06o1.jpg;1;rctrl;1;2.29956223174
+23556;4;11;inverted;practice;female;practice;right;different;11o.jpg;11c.jpg;1;lctrl;1;2.16137273818

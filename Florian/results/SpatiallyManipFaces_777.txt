@@ -1,0 +1,29 @@
+subject_id;trial;trial_id;vert_orientation;face_id;sex;spat_chng;chngd_face_pos;cond;image_name_l;image_name_r;practice;ans;correct;rt
+777;1;3;upright;practice;female;practice;right;different;03o.jpg;03c.jpg;1;rctrl;0;3.67787359042
+777;2;7;inverted;practice;male;practice;;same;07o.jpg;07o1.jpg;1;rctrl;1;0.565307551346
+777;3;6;upright;practice;male;practice;;same;06o.jpg;06o1.jpg;1;rctrl;1;0.676039947864
+777;4;11;inverted;practice;female;practice;right;different;11o.jpg;11c.jpg;1;rctrl;0;0.320888586829
+777;5;10;inverted;practice;male;practice;left;different;10c.jpg;10o.jpg;1;rctrl;0;0.153019637536
+777;6;2;upright;practice;female;practice;;same;02o.jpg;02o1.jpg;1;rctrl;1;2.44481625374
+777;1;56;inverted;11;male;none;;same;56o.jpg;56o1.jpg;0;rctrl;1;2.22347233515
+777;2;36;inverted;6;female;mouth up (7);right;different;36o.jpg;36c.jpg;0;rctrl;0;0.518949350186
+777;3;40;inverted;10;female;none;;same;40o.jpg;40o1.jpg;0;rctrl;1;4.5810565795
+777;4;60;inverted;15;male;none;;same;60o.jpg;60o1.jpg;0;rctrl;1;0.375811768838
+777;5;52;inverted;7;male;mouth down (9) ;right;different;52o.jpg;52c.jpg;0;rctrl;0;0.238834793139
+777;6;43;inverted;13;female;none;;same;43o.jpg;43o1.jpg;0;rctrl;1;0.760394917344
+777;7;23;upright;8;male;none;;same;23o.jpg;23o1.jpg;0;rctrl;1;35.8510581646
+777;8;49;inverted;4;male;eyes out (12);left;different;49c.jpg;49o.jpg;0;rctrl;0;5.51106229253
+777;9;37;inverted;7;female;mouth up (9) ;left;different;37c.jpg;37o.jpg;0;rctrl;0;0.484143211132
+777;10;26;upright;11;male;none;;same;26o.jpg;26o1.jpg;0;rctrl;1;1.80426549958
+777;11;33;inverted;3;female;eyes down (11);left;different;33c.jpg;33o.jpg;0;rctrl;0;0.232367440073
+777;12;59;inverted;14;male;none;;same;59o.jpg;59o1.jpg;0;rctrl;1;1.15581685469
+777;13;2;upright;2;female;eyes up (15);left;different;02c.jpg;02o.jpg;0;rctrl;0;0.0220635776777
+777;14;16;upright;1;male;eyes up (13);left;different;16c.jpg;16o.jpg;0;rctrl;0;1.22755925984
+777;15;31;inverted;1;female;eyes up (9);right;different;31o.jpg;31c.jpg;0;rctrl;0;5.27328743145
+777;16;38;inverted;8;female;mouth down (7);right;different;38o.jpg;38c.jpg;0;rctrl;0;4.02232357177
+777;17;44;inverted;14;female;none;;same;44o.jpg;44o1.jpg;0;rctrl;1;3.56285357201
+777;18;50;inverted;5;male;eyes in (10);left;different;50c.jpg;50o.jpg;0;rctrl;0;1.48735721706
+777;19;54;inverted;9;male;none;;same;54o.jpg;54o1.jpg;0;rctrl;1;2.73204187729
+777;20;24;upright;9;male;none;;same;24o.jpg;24o1.jpg;0;rctrl;1;1.15518853563
+777;21;51;inverted;6;male;mouth up (11);right;different;51o.jpg;51c.jpg;0;rctrl;0;0.410023798582
+777;22;9;upright;9;fem
