@@ -22,7 +22,7 @@ INSTR_CHAR_SIZE = 18  # character size for instructions
 OUTPATH = '{0}/results/'.format(PATH)  # output path for storing the results
 AVAILABLE_KEYS = ['lctrl', 'rctrl', 'q']
 LANGUAGE = 'DE_K'  # 'DE_K'=German for smaller children; 'DE_G'=German for older children
-MATCHING = {'lctrl':'different', 'rctrl':'same'}  # matching of buttons to answers
+MATCHING = {'lctrl': 'different', 'rctrl': 'same'}  # matching of buttons to answers
 SCREEN_SIZE = [1366, 768]  # what is your screen resolution?
 LANG_FONT_MAP = {'DE_K': 'Courier New', 'DE_G': 'Courier New'}  # what font is used for what language?
 
@@ -111,7 +111,7 @@ header[0].extend(["ans", "correct", "rt"])
 wrap_width = SCREEN_SIZE[0]-100
 font = LANG_FONT_MAP[LANGUAGE]  # font based on language selection
 
-output_file = OUTPATH + exp_info['exp_name'] + '_%02i.txt'%(int(exp_info['Subject']))
+output_file = OUTPATH + exp_info['exp_name'] + "DE_K" + '_%02i.txt'%(int(exp_info['Subject']))
 rt_clock = core.Clock()  # reaction time clock
 
 # fixation cross
@@ -127,12 +127,11 @@ fix_cross = visual.TextStim(exp_win, pos=[0, 0], text = '+', font='Arial', color
 #   Time critical screens which require quick drawing are done as TextStims or ImageStims.
 instructions = []
 try:
-    for i in range(30):
+    for i in range(31):
         num = str(i+1)
         image_name = "Sim_match_of_spec_man_F_1_0" + num
         instructions.append(Image(image_name).buffer())
 
-    instructions.append(Image("Sim_match_of_spec_man_F_1_031").buffer(factor=1.33))
     instructions.append(Image("Sim_match_of_spec_man_F_1_032").buffer(factor=1.33))
     instructions.append(Image("Sim_match_of_spec_man_F_1_033").buffer())
 
@@ -178,7 +177,7 @@ def run_trials(items, trial_order, practice=False):
         item_prefix = 'psmsmf'
     # else:
     #     item_prefix = 'smsmf'
-    trial_order = [1, 2, 3, 4]
+
     trial_count = 1
     
     # loop through trials
