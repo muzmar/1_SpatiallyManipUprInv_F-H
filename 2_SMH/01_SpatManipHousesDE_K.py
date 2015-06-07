@@ -1,9 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
-'''
-@author: Florian Niefind
-@contact: nifflor@googlemail.com
-@date: 2014-05-21
-'''
+
+# @author: Florian Niefind
+# @contact: nifflor@googlemail.com
+# @date: 2014-05-21
 
 # TO DO: will there be chinese pictures? yes!
 
@@ -74,7 +73,7 @@ exp_info['exp_name'] = exp_name
 
 # create a window
 exp_win = visual.Window(size=SCREEN_SIZE, monitor="testMonitor", color=(230,230,230), fullscr=True,
-                        colorSpace='rgb255', units="deg")
+                       colorSpace='rgb255', units="deg")
 
 # ===============================================================================
 # read stimuli
@@ -99,8 +98,8 @@ def read_stims(stim_file):
             item_list.append(line[0:11])  # write entire rest of the line
     return item_list, trial_order, file_header
 
-practice_items, practice_trial_order, practice_header = read_stims('%s/stimuli/Practice_SpatManipFaces_DE.txt'%(PATH))
-items, trial_order, header = read_stims('%s/stimuli/Trials_SpatManipFaces_DE.txt'%(PATH))
+practice_items, practice_trial_order, practice_header = read_stims('%s/stimuli/Practice_SpatManipHouses_DE.txt'%(PATH))
+items, trial_order, header = read_stims('%s/stimuli/Trials_SpatManipHouses_DE.txt'%(PATH))
 # Edit header line for using in the output
 header[0][0] = "trial"
 header[0][0:0] = ["Subject_ID"]
@@ -113,7 +112,7 @@ header[0].extend(["ans", "correct", "rt"])
 wrap_width = SCREEN_SIZE[0]-100
 font = LANG_FONT_MAP[LANGUAGE]  # font based on language selection
 
-output_file = OUTPATH + exp_info['exp_name'] + '_%02i.txt'%(int(exp_info['Subject']))
+output_file = OUTPATH + exp_info['exp_name'] + "DE_K" + '_%02i.txt'%(int(exp_info['Subject']))
 rt_clock = core.Clock()  # reaction time clock
 
 # fixation cross
@@ -180,7 +179,7 @@ def run_trials(items, trial_order, practice=False):
     # shuffle(trial_order)
     
     if practice:
-        item_prefix = 'psmsmf'
+        item_prefix = 'phsmsmf'
     # else:
     #     item_prefix = 'smsmf'
 

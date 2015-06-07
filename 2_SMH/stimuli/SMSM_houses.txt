@@ -1,61 +1,61 @@
-orig trial#;type;House #;sex; spatial change ;position of changed  haus; r-k(ascii) ;file name left;file name right;seq
-1;upright ;1;1;windows up;right;different;02_1.jpg;02_1_windows_up.jpg;59
-2;upright ;2;1;windows in;left;different;010_1.jpg;010_1_windows_in.jpg;33
-3;upright ;3;1;big window up;right;different;04_1.jpg;04_1_big_window_up.jpg;19
-4;upright ;4;1;none;;same;014_1.jpg;014_1_same.jpg;56
-5;upright ;5;1;none;;same;015_1.jpg;015_1_same.jpg;44
-6;upright ;6;1;none;;same;019_1.jpg;019_1_same.jpg;5
-7;inverted;1;1;windows up;right;different;02_1_in.jpg;02_1_windows_up_in.jpg;1
-8;inverted;2;1;windows in;right;different;010_1_in.jpg;010_1_windows_in_in.jpg;8
-9;inverted;3;1;big window up;left;different;04_1_in.jpg;04_1_big_window_up_in.jpg;16
-10;inverted;4;1;none;;same;014_1_in.jpg;014_1_same_in.jpg;9
-11;inverted;5;1;none;;same;015_1_in.jpg;015_1_same_in.jpg;41
-12;inverted;6;1;none;;same;019_1_in.jpg;019_1_same_in.jpg;17
-13;upright ;1;1;windows up;left;different;03_2.jpg;03_2_windows_up.jpg;7
-14;upright ;2;1;windows in;right;different;02_2.jpg;02_2_windows_in.jpg;12
-15;upright ;3;1;big window up;left;different;05_2.jpg;05_2_big_window_up.jpg;14
-16;upright ;4;1;none;;same;06_2.jpg;06_2_same.jpg;18
-17;upright ;5;1;none;;same;07_2.jpg;07_2_same.jpg;39
-18;upright ;6;1;none;;same;08_2.jpg;08_2_same.jpg;49
-19;inverted;1;1;windows up;left;different;03_2_in.jpg;03_2_windows_up_in.jpg;36
-20;inverted;2;1;windows in;left;different;02_2_in.jpg;02_2_windows_in_in.jpg;50
-21;inverted;3;1;big window up;right;different;05_2_in.jpg;05_2_big_window_up_in.jpg;38
-22;inverted;4;1;none;;same;06_2_in.jpg;06_2_same_in.jpg;20
-23;inverted;5;1;none;;same;07_2_in.jpg;07_2_same_in.jpg;43
-24;inverted;6;1;none;;same;08_2_in.jpg;08_2_same_in.jpg;31
-25;upright ;1;1;windows up;right;different;016_3.jpg;016_3_windows_up.jpg;34
-26;upright ;2;1;windows in;right;different;04_3.jpg;04_3_windows_in.jpg;60
-27;upright ;3;1;big window up;left;different;05_3.jpg;05_3_big_window_up.jpg;24
-28;upright ;4;1;none;;same;03_3.jpg;03_3_same.jpg;54
-29;upright ;5;1;none;;same;06_3.jpg;06_3_same.jpg;32
-30;upright ;6;1;none;;same;010_3.jpg;010_3_same.jpg;23
-31;inverted;1;1;windows up;right;different;016_3_in.jpg;016_3_windows_up_in.jpg;26
-32;inverted;2;1;windows in;left;different;04_3_in.jpg;04_3_windows_in_in.jpg;47
-33;inverted;3;1;big window up;right;different;05_3_in.jpg;05_3_big_window_up_in.jpg;11
-34;inverted;4;1;none;;same;03_3_in.jpg;03_3_same_in.jpg;25
-35;inverted;5;1;none;;same;06_3_in.jpg;06_3_same_in.jpg;55
-36;inverted;6;1;none;;same;010_3_in.jpg;010_3_same_in.jpg;13
-37;upright ;1;1;windows up;left;different;03_4.jpg;03_4_windows_up.jpg;45
-38;upright ;2;1;windows in;left;different;083_4.jpg;083_4_windows_in.jpg;3
-39;upright ;3;1;big window up;right;different;076_4.jpg;076_4_big_window_up.jpg;15
-40;upright ;4;1;none;;same;04_4.jpg;04_4_same.jpg;10
-41;upright ;5;1;none;;same;05_4.jpg;05_4_same.jpg;27
-42;upright ;6;1;none;;same;026_4.jpg;026_4_same.jpg;4
-43;inverted;1;1;windows up;left;different;03_4_in.jpg;03_4_windows_up_in.jpg;22
-44;inverted;2;1;windows in;right;different;083_4_in.jpg;083_4_windows_in_in.jpg;46
-45;inverted;3;1;big window up;left;different;076_4_in.jpg;076_4_big_window_up_in.jpg;51
-46;inverted;4;1;none;;same;04_4_in.jpg;04_4_same_in.jpg;58
-47;inverted;5;1;none;;same;05_4_in.jpg;05_4_same_in.jpg;6
-48;inverted;6;1;none;;same;026_4_in.jpg;026_4_same_in.jpg;2
-49;upright ;1;1;windows up;right;different;092_5.jpg;092_5_windows_up.jpg;28
-50;upright ;2;1;windows in;right;different;011_5.jpg;011_5_windows_in.jpg;42
-51;upright ;3;1;big window up;left;different;033_5.jpg;033_5_big_window_up.jpg;52
-52;upright ;4;1;none;;same;01_5.jpg;01_5_same.jpg;57
-53;upright ;5;1;none;;same;05_5.jpg;05_5_same.jpg;40
-54;upright ;6;1;none;;same;07_5.jpg;07_5_same.jpg;53
-55;inverted;1;1;windows up;left;different;092_5_in.jpg;092_5_windows_up_in.jpg;29
-56;inverted;2;1;windows in;left;different;011_5_in.jpg;011_5_windows_in_in.jpg;30
-57;inverted;3;1;big window up;right;different;033_5_in.jpg;033_5_big_window_up_in.jpg;48
-58;inverted;4;1;none;;same;01_5_in.jpg;01_5_same_in.jpg;35
-59;inverted;5;1;none;;same;05_5_in.jpg;05_5_same_in.jpg;21
-60;inverted;6;1;none;;same;07_5_in.jpg;07_5_same_in.jpg;37
+orig trial#;type;House #;sex; spatial change ;position of changed  haus; r-k(ascii) ;file name left;file name right;seq;HouseType 
+1;upright ;1;1;windows up;right;different;02_1.jpg;02_1_windows_up.jpg;59;1
+2;upright ;2;1;windows in;left;different;010_1.jpg;010_1_windows_in.jpg;33;1
+3;upright ;3;1;big window up;right;different;04_1.jpg;04_1_big_window_up.jpg;19;1
+4;upright ;4;1;none;;same;014_1.jpg;014_1_same.jpg;56;1
+5;upright ;5;1;none;;same;015_1.jpg;015_1_same.jpg;44;1
+6;upright ;6;1;none;;same;019_1.jpg;019_1_same.jpg;5;1
+7;inverted;1;1;windows up;right;different;02_1_in.jpg;02_1_windows_up_in.jpg;1;1
+8;inverted;2;1;windows in;right;different;010_1_in.jpg;010_1_windows_in_in.jpg;8;1
+9;inverted;3;1;big window up;left;different;04_1_in.jpg;04_1_big_window_up_in.jpg;16;1
+10;inverted;4;1;none;;same;014_1_in.jpg;014_1_same_in.jpg;9;1
+11;inverted;5;1;none;;same;015_1_in.jpg;015_1_same_in.jpg;41;1
+12;inverted;6;1;none;;same;019_1_in.jpg;019_1_same_in.jpg;17;2
+13;upright ;1;1;windows up;left;different;03_2.jpg;03_2_windows_up.jpg;7;2
+14;upright ;2;1;windows in;right;different;02_2.jpg;02_2_windows_in.jpg;12;2
+15;upright ;3;1;big window up;left;different;05_2.jpg;05_2_big_window_up.jpg;14;2
+16;upright ;4;1;none;;same;06_2.jpg;06_2_same.jpg;18;2
+17;upright ;5;1;none;;same;07_2.jpg;07_2_same.jpg;39;2
+18;upright ;6;1;none;;same;08_2.jpg;08_2_same.jpg;49;2
+19;inverted;1;1;windows up;left;different;03_2_in.jpg;03_2_windows_up_in.jpg;36;2
+20;inverted;2;1;windows in;left;different;02_2_in.jpg;02_2_windows_in_in.jpg;50;2
+21;inverted;3;1;big window up;right;different;05_2_in.jpg;05_2_big_window_up_in.jpg;38;2
+22;inverted;4;1;none;;same;06_2_in.jpg;06_2_same_in.jpg;20;2
+23;inverted;5;1;none;;same;07_2_in.jpg;07_2_same_in.jpg;43;2
+24;inverted;6;1;none;;same;08_2_in.jpg;08_2_same_in.jpg;31;2
+25;upright ;1;1;windows up;right;different;016_3.jpg;016_3_windows_up.jpg;34;3
+26;upright ;2;1;windows in;right;different;04_3.jpg;04_3_windows_in.jpg;60;3
+27;upright ;3;1;big window up;left;different;05_3.jpg;05_3_big_window_up.jpg;24;3
+28;upright ;4;1;none;;same;03_3.jpg;03_3_same.jpg;54;3
+29;upright ;5;1;none;;same;06_3.jpg;06_3_same.jpg;32;3
+30;upright ;6;1;none;;same;010_3.jpg;010_3_same.jpg;23;3
+31;inverted;1;1;windows up;right;different;016_3_in.jpg;016_3_windows_up_in.jpg;26;3
+32;inverted;2;1;windows in;left;different;04_3_in.jpg;04_3_windows_in_in.jpg;47;3
+33;inverted;3;1;big window up;right;different;05_3_in.jpg;05_3_big_window_up_in.jpg;11;3
+34;inverted;4;1;none;;same;03_3_in.jpg;03_3_same_in.jpg;25;3
+35;inverted;5;1;none;;same;06_3_in.jpg;06_3_same_in.jpg;55;3
+36;inverted;6;1;none;;same;010_3_in.jpg;010_3_same_in.jpg;13;3
+37;upright ;1;1;windows up;left;different;03_4.jpg;03_4_windows_up.jpg;45;4
+38;upright ;2;1;windows in;left;different;083_4.jpg;083_4_windows_in.jpg;3;4
+39;upright ;3;1;big window up;right;different;076_4.jpg;076_4_big_window_up.jpg;15;4
+40;upright ;4;1;none;;same;04_4.jpg;04_4_same.jpg;10;4
+41;upright ;5;1;none;;same;05_4.jpg;05_4_same.jpg;27;4
+42;upright ;6;1;none;;same;026_4.jpg;026_4_same.jpg;4;4
+43;inverted;1;1;windows up;left;different;03_4_in.jpg;03_4_windows_up_in.jpg;22;4
+44;inverted;2;1;windows in;right;different;083_4_in.jpg;083_4_windows_in_in.jpg;46;4
+45;inverted;3;1;big window up;left;different;076_4_in.jpg;076_4_big_window_up_in.jpg;51;4
+46;inverted;4;1;none;;same;04_4_in.jpg;04_4_same_in.jpg;58;4
+47;inverted;5;1;none;;same;05_4_in.jpg;05_4_same_in.jpg;6;4
+48;inverted;6;1;none;;same;026_4_in.jpg;026_4_same_in.jpg;2;4
+49;upright ;1;1;windows up;right;different;092_5.jpg;092_5_windows_up.jpg;28;5
+50;upright ;2;1;windows in;right;different;011_5.jpg;011_5_windows_in.jpg;42;5
+51;upright ;3;1;big window up;left;different;033_5.jpg;033_5_big_window_up.jpg;52;5
+52;upright ;4;1;none;;same;01_5.jpg;01_5_same.jpg;57;5
+53;upright ;5;1;none;;same;05_5.jpg;05_5_same.jpg;40;5
+54;upright ;6;1;none;;same;07_5.jpg;07_5_same.jpg;53;5
+55;inverted;1;1;windows up;left;different;092_5_in.jpg;092_5_windows_up_in.jpg;29;5
+56;inverted;2;1;windows in;left;different;011_5_in.jpg;011_5_windows_in_in.jpg;30;5
+57;inverted;3;1;big window up;right;different;033_5_in.jpg;033_5_big_window_up_in.jpg;48;5
+58;inverted;4;1;none;;same;01_5_in.jpg;01_5_same_in.jpg;35;5
+59;inverted;5;1;none;;same;05_5_in.jpg;05_5_same_in.jpg;21;5
+60;inverted;6;1;none;;same;07_5_in.jpg;07_5_same_in.jpg;37;5
